@@ -1,8 +1,8 @@
 ## Git and GitHub Behavior
-- Don't bother making PRs for git development branches
+- Ask me if I want a PR when making a very large commit
 - Always work off of a development branch, don't start new work off of 'main' or a production branch
 - Always make PRs for main and important branches you come across (beta, preprod)
-- Always run regression tests as a precommit before pushing large amounts of changes. Make precommit rules to help yourself
+- Always run regression tests as a precommit before pushing large amounts of changes. Make precommit rules to help yourself as needed
 - If we have a code linter set up, ask me if I want to run it after making large commits
 
 ## Velocity
