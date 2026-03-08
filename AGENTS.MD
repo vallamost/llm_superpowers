@@ -1,11 +1,9 @@
-
-
 ## Git and GitHub Behavior
 - Don't bother making PRs for git development branches
 - Always work off of a development branch, don't start new work off of 'main' or a production branch
 - Always make PRs for main and important branches you come across (beta, preprod)
 - Always run regression tests as a precommit before pushing large amounts of changes. Make precommit rules to help yourself
-- If we have a code linter set up, use it on large commits
+- If we have a code linter set up, ask me if I want to run it after making large commits
 
 ## Velocity
 - When prototyping new features, fail fast and plan for failures, if you are making a network test to an API or resource make sure the app isn't in the middle of a build before trying, double check  app is up
@@ -21,8 +19,8 @@
 
 ## Network, Deployments, and Errors
 - Do not expose ports or API endpoints to the public internet unless you have thoroughly discussed this with me
-- Utilize the template method pattern when building an API client for network resources, this is because we want a consistent and reliable mechanism for making network requests for data that provides us with exponential back off and configurable retries
-- Build and make API requests in a reliable and 
+- Utilize the template method pattern when building an API client for network resources, this is because we want consistent and reliable mechanism for making network requests for data that provide us with exponential back off and configurable retries
+- 85%+ of web traffic comes from mobile use, keep request counts small and retryable
 - Never hardcode URLs or Ports in code, utilize variables and config files
 - If you finish a large feature or feat, provide a URL so I can view it if possible
 - Build a /health resource on every endpoint that is served over HTTP or HTTPS
