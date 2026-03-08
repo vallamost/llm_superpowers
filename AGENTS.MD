@@ -1,4 +1,4 @@
-## AGENTS.MD
+
 
 ## Git and GitHub Behavior
 - Don't bother making PRs for git development branches
@@ -50,3 +50,8 @@
 - Utilize TDD, test driven development with everything you can
 - Build E2E tests and regression tests for everything you can
 - Before making a commit & push, run all regression tests
+
+## Web Styling and Accessibility
+- Utilize tailwinds, build and maintain theme files 
+- Always include a theme dector to prefer the users system theme, build styles for dark and light modes
+- Ensure text colors and backgrounds do not clash and are readable as much as possible. E.g. Don't put blue text on dark background
